@@ -5,9 +5,9 @@ public class Main {
 	public static void main(String[] args) {
 		Banco banco1 = new Banco("BROU", "Montevideo, Av.Italia");
 		
-		Cliente cliente1 = new Cliente(55699759, "Bruno", "Rocha", "3 de Febrero S/N",
+		Cliente cliente1 = new Cliente(1111111, "Bruno", "Rocha", "3 de Febrero S/N",
 						"brunorocha1ero4@gmail.com", "44750000", 1000.0);
-		Cliente cliente2 = new Cliente(55699759, "Pepe", "Rodriguez", "Av.Inventada Nro.1045",
+		Cliente cliente2 = new Cliente(222222, "Pepe", "Rodriguez", "Av.Inventada Nro.1045",
 				"pepe@gmail.com", "44728888", 500.0);
 		
 		banco1.agregarCliente(cliente1);
