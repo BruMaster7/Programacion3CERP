@@ -13,7 +13,7 @@ public class Deposito extends Transaccion{
 		if (getImporte() >= MIN_CANTIDAD) {
 		cliente.incrementarSaldo(getImporte());	
 		} else {
-			System.out.println("Importe insuficiente, debe ser igual o mayor a $500");
+			System.out.println("Importe insuficiente, debe ser igual o mayor a $" + MIN_CANTIDAD);
 		}
 	}
 	
